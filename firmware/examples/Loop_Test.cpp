@@ -1,5 +1,4 @@
 /* Includes ------------------------------------------------------------------*/
-#include "application.h"
 #include "NCD8Relay.h"
 
 SYSTEM_MODE(MANUAL);

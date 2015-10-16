@@ -1,5 +1,5 @@
 /* Includes ------------------------------------------------------------------*/
-#include "application.h"
+#include "NCD8Relay.h"
 #include "spark_wiring_print.h"
 
 SYSTEM_MODE(AUTOMATIC);
