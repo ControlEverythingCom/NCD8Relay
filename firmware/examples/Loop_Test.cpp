@@ -1,7 +1,7 @@
 /* Includes ------------------------------------------------------------------*/
 #include "NCD8Relay/NCD8Relay.h"
 
-SYSTEM_MODE(MANUAL);
+SYSTEM_MODE(AUTOMATIC);
 NCD8Relay relayController;
 
 /* This function is called once at start up ----------------------------------*/
