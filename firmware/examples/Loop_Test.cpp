@@ -1,5 +1,5 @@
 /* Includes ------------------------------------------------------------------*/
-#include "NCD8Relay.h"
+#include "NCD8Relay/NCD8Relay.h"
 
 SYSTEM_MODE(MANUAL);
 NCD8Relay relayController;
