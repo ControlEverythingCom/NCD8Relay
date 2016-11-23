@@ -114,8 +114,9 @@ void readStoredEvents(){
     for(int eventIndex = 0; eventIndex < numberOfEvents; eventIndex++){
         Serial.printf("Event at location %i: ",eventIndex);
         for(int i = startIndex; i < startIndex+36; i+=4){
-            EEPROM.get(i, eventArray[eventIndex][(i-1)/4]);
-            Serial.printf("%i, ", eventArray[eventIndex][(i-1)/4]);
+            int arrayIndex = ((i-1)/4) % 9;
+            EEPROM.get(i, eventArray[eventIndex][arrayIndex);
+            Serial.printf("%i, ", eventArray[eventIndex][arrayIndex);
         }
         Serial.printf("Event at location %i: ",eventIndex);
         Serial.println();
